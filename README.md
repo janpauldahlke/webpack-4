@@ -62,9 +62,6 @@ module.exports = {
   }
 ```
 
-- be the code with you friend
-- "never whistle while your pissing" *hagbart celine
-
 #### adding the REACT thing
 - install it ```npm install react react-dom --save-dev```
 - add babel-preset-react ```npm install babel-preset-react --save-dev```
@@ -74,3 +71,15 @@ module.exports = {
   "presets" : ["env", "react"]
 }
 ```
+
+#### improving the config
+- add url loader ```npm install --save-dev url-loader```
+- add css loader ```npm install --save-dev css-loader```
+- make text from css possbile```npm install --save-dev extract-text-webpack-plugin```
+- this took quite some time to find and install for webpack 4 ```npm install --save-dev html-webpack-plugin```
+- install ```webpack-dev-server``` and use it in the npm scripts part correctly to watch the project
+
+#### the night is dark and full of errors
+- consider the frog as a friend of wise words
+- be the code with you friend
+- "never whistle while your pissing" *hagbart celine
