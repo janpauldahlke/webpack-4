@@ -64,3 +64,13 @@ module.exports = {
 
 - be the code with you friend
 - "never whistle while your pissing" *hagbart celine
+
+#### adding the REACT thing
+- install it ```npm install react react-dom --save-dev```
+- add babel-preset-react ```npm install babel-preset-react --save-dev```
+- configure it in the `.babelrc` file
+```
+{
+  "presets" : ["env", "react"]
+}
+```
